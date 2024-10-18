@@ -10,3 +10,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.tabs-borders {
+    margin: auto;
+    width:50%;
+    border-top:1px solid  lightgray;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+
+    
+}
+
+p { 
+    padding-top:10px;
+    padding-bottom:5px;
+    margin: auto;
+    width:50%;
+    /* border-top:1px solid  lightgray; */
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray;
+    border-bottom:1px solid lightgrey;
+    padding-left:10px;
+}
+
+input {
+    padding-top:10px;
+    border-style:none;
+    border:none;
+    font-size:22px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+ul {
+    width:50%; 
+}
+
+li {
+    border-bottom:1px solid lightgray;
+	font-size:21px;
+	padding-left:0px;
+}
+
+.small-div {
+    height:5px;
+	margin:auto;
+	border-left:1px solid lightgrey;
+	border-right:1px solid lightgrey;
+	border-bottom:1px solid lightgrey;
+}
